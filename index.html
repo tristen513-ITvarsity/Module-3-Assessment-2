@@ -1,22 +1,51 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Tristen's Recipe Book</title>
-    <link rel="stylesheet" href="styls.css">
-    <link rel="stylesheet" href="fontAwesome/css/all.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flame & Fork | Menu Categories</title>
+  <link rel="stylesheet" href="styls.css">
+  <link rel="stylesheet" href="fontAwesome/css/all.css">
 </head>
-<body class="body-home">
-    <div id="home">
-        <div class="home-intro">
-            <h1 class="home-title">Tristen's Kitchen Notebook</h1>
-            <p class="home-subtitle">Fresh home recipes with a modern style.</p>
-        </div>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><i class="fas fa-utensils"></i></span>
+        <h1>Flame & Fork</h1>
+      </a>
+    </header>
 
-        <div class="home-menu">
-            <a href="meals.html" class="home-menu-item"><p>Meals</p></a>
-            <a href="drinks.html" class="home-menu-item"><p>Drinks</p></a>
-            <a href="desert.html" class="home-menu-item"><p>Dessert</p></a>
+    <section class="hero">
+      <h2>Restaurant Menu App</h2>
+      <p>Choose a category, pick a meal, customize extras, add notes, and place your order in a few clicks.</p>
+    </section>
+
+    <section class="grid grid-3">
+      <a href="starters.html" class="card card-link">
+        <div class="card-body">
+          <h3 class="card-title">Starters <i class="fas fa-chevron-right"></i></h3>
+          <p>Light bites to begin your meal.</p>
+          <div class="meta"><span>3 items</span><span><i class="fas fa-seedling"></i></span></div>
         </div>
-    </div>
+      </a>
+
+      <a href="mains.html" class="card card-link">
+        <div class="card-body">
+          <h3 class="card-title">Mains <i class="fas fa-chevron-right"></i></h3>
+          <p>Hearty dishes made fresh.</p>
+          <div class="meta"><span>3 items</span><span><i class="fas fa-fire"></i></span></div>
+        </div>
+      </a>
+
+      <a href="drinks.html" class="card card-link">
+        <div class="card-body">
+          <h3 class="card-title">Drinks <i class="fas fa-chevron-right"></i></h3>
+          <p>Cool beverages to match every meal.</p>
+          <div class="meta"><span>3 items</span><span><i class="fas fa-glass-whiskey"></i></span></div>
+        </div>
+      </a>
+    </section>
+  </main>
 </body>
 </html>

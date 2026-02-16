@@ -1,64 +1,42 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Tristen's Recipe Book | Meals</title>
-    <link rel="stylesheet" href="styls.css">
-    <link rel="stylesheet" href="fontAwesome/css/all.css">
-    </head>
-    
-    <body class="body-meals">
-        
-        <div class="header">
-            <a href="meals.html">
-            <i class="fas fa-arrow-left"></i>
-            </a>
-            
-            <span class="header-title">Tristen's Kitchen</span>
-        </div>
-        
-        <div id="recipe">
-            
-            <div class="recipe-details">
-                  <img src="Images/grilledCheese.png">
-                
-                <h1>Grilled Cheese Sendwich</h1>
-                
-                <div class="recipe-details-info">
-                     <p><b>Prep tome: </b> 10 mins</p>
-                     <p style="float: right;"><b>Yield: </b> 4</p>
-                </div>
-                
-                <div class="recipe-details-ingredients">
-                    <h2>Ingredients</h2>
-                    
-                    <input id="check-01" type="checkbox">
-                    <label for="check-01">1/4 cup butter, softened</label>
-                    <br>
-                     <input id="check-02" type="checkbox">
-                    <label for="check-02">1 tablespoon grated parmesan cheese</label>
-                    <br>
-                     <input id="check-03" type="checkbox">
-                    <label for="check-03">8 Italian bread slices</label>
-                    <br>
-                     <input id="check-04" type="checkbox">
-                    <label for="check-04">4(3/4-oz.)provolone Cheese slices</label>
-                    <br>
-                     <input id="check-05" type="checkbox">
-                    <label for="check-05">4(3/4oz)mozzeralla cheese slices</label>
-                </div>
-                
-                 <div class="recipe-details-steps" >
-                <h2>steps</h2>
-                     
-                     <ol>
-                     <li>Stir together butter and parmesan cheese in a small bowl</li>
-                     <li>Spread 11/2 tsp. butter on 1 side of each bread slice.Place 4bread slices,buttered side down, on wax paper.Top with provolone and mozzarella cheese;top with remaining bread slices,buttered side up.</li>
-                    <li>Cook sandwiches,on a hot griddle or in a non-stick skillent over medium heat,gently pressing with a spatula,4 minutes on each side or until golden brown and cheese is melted</li>
-                     </ol>
-                </div>
-            </div>
-            
-        </div>
-    </body>
-</html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flame & Fork | Triple Cheese Melt</title>
+  <link rel="stylesheet" href="styls.css">
+  <link rel="stylesheet" href="fontAwesome/css/all.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <a href="mains.html" class="back-link"><i class="fas fa-arrow-left"></i> Back</a>
+      <a href="index.html" class="brand"><span class="brand-mark"><i class="fas fa-utensils"></i></span><h1>Flame & Fork</h1></a>
+    </header>
 
+    <section class="item-wrap">
+      <article class="item-panel">
+        <img src="Images/grilledCheese.png" alt="Triple Cheese Melt" class="item-image">
+        <h2>Triple Cheese Melt</h2>
+        <div class="price-line"><span>Price: R85</span><span>Serving: 1 large sandwich</span></div>
+        <p>Golden toasted sandwich layered with cheddar, mozzarella and gouda.</p>
+        <h3>Optional Extras</h3>
+        <ul class="extras">
+          <li>Fries</li>
+          <li>Extra cheese</li>
+          <li>Tomato soup dip</li>
+        </ul>
+      </article>
+
+      <section class="form-panel">
+        <h3>Special Notes</h3>
+        <form action="order-success.html" method="get">
+          <label for="notes">Add extra requests for this meal</label>
+          <textarea id="notes" name="notes" rows="8" placeholder="Example: no onions, extra sauce, well done"></textarea>
+          <button type="submit" class="order-btn">Place Order</button>
+        </form>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
