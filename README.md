@@ -1,21 +1,22 @@
-﻿# Flame & Fork - Restaurant Menu App
+﻿# Tristen's Flame Kitchen - Restaurant Menu App
 
 This project is a responsive multi-page restaurant menu app for Assessment 2.
 
 ## Features
-- Homepage with 3 menu categories: Starters, Mains, Drinks
-- Each category has 3 meal items (9 total meal pages)
-- Every meal page includes: image, meal name, price, serving size, description, extras list, notes input, and Place Order button
-- Place Order routes to an order confirmation page
-- Confirmation page includes a link back to homepage
-- Uses Font Awesome icons and custom branding (Flame & Fork)
-- Fully responsive layout for desktop, tablet, and mobile
+- New restaurant brand and logo: Tristen's Flame Kitchen
+- Homepage with 3 categories: Starters, Mains, Desserts
+- 3 meals per category (9 meal detail pages)
+- Downloaded and assigned different images for each meal
+- Every meal page includes image, name, price, serving size, description, extras list, notes form, and Place Order button
+- Order confirmation page with homepage link
+- Responsive layout for desktop and mobile
+- Font Awesome icons included
 
 ## Main Files
 - index.html
 - starters.html
 - mains.html
-- drinks.html
+- drinks.html (used as Desserts category)
 - smoky-garlic-knots.html
 - crispy-mushroom-bites.html
 - cheesy-bruschetta.html
@@ -27,7 +28,8 @@ This project is a responsive multi-page restaurant menu app for Assessment 2.
 - iced-latte.html
 - order-success.html
 - styls.css
+- Images/tristen-logo.svg
 
-## How To Run
-1. Open index.html in your browser.
-2. Navigate categories to items and place an order.
+## Run
+1. Open index.html in a browser.
+2. Navigate category to meal and place order.

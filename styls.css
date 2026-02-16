@@ -267,3 +267,17 @@ textarea {
     padding: 20px;
   }
 }
+
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--cream);
+  box-shadow: var(--shadow);
+}
+
+.card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
